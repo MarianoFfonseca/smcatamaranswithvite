@@ -1,0 +1,47 @@
+[
+  {
+    "borderRigth": true,
+    "Data": [
+      {
+        "borderTop": false,
+        "title": "LOA",
+        "description": "16.34 m / 53.60 ft"
+      },
+      {
+        "borderTop": true,
+        "title": "Engines",
+        "description": "2x29 Hp"
+      }
+    ]
+  },
+  {
+    "borderRigth": true,
+    "Data": [
+      {
+        "borderTop": false,
+        "title": "Living Space",
+        "description": "45 m² / 485 ft²"
+      },
+      {
+        "borderTop": true,
+        "title": "Fuel capacity",
+        "description": "2x200 L / 2x52.83 Us Gal"
+      }
+    ]
+  },
+  {
+    "borderRigth": false,
+    "Data": [
+      {
+        "borderTop": false,
+        "title": "Sail Main",
+        "description": "108 m² / 1162.50 ft²"
+      },
+      {
+        "borderTop": true,
+        "title": "Water capacity",
+        "description": "2x200 L / 2x52.83 Us Gal"
+      }
+    ]
+  }
+]

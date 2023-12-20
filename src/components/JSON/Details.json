@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Specifications",
+    "data": [
+      {
+        "name": "LOA",
+        "detail": "16.34 m / 53.60 ft"
+      },
+      {
+        "name": "LWL",
+        "detail": "16.34 m / 53.60 ft"
+      },
+      {
+        "name": "BOA",
+        "detail": "8 m / 26.24 ft"
+      },
+      {
+        "name": "Draft Board Down",
+        "detail": "3 m / 9.84 ft"
+      },
+      {
+        "name": "Draft Board Up",
+        "detail": "1.50 m / 4.92 ft"
+      },
+      {
+        "name": "Mast Clearance",
+        "detail": "25.30 m / 83 ft"
+      },
+      {
+        "name": "Mast Length",
+        "detail": "22.20 m / 72.83 ft"
+      },
+      {
+        "name": "Displacement Light Ship",
+        "detail": "11 Tn"
+      },
+      {
+        "name": "Displacement Max Load",
+        "detail": "14 Tn"
+      },
+      {
+        "name": "Bridge Deck Clearance",
+        "detail": "0.84 m / 2.75 ft"
+      }
+    ]
+  },
+  {
+    "title": "Sail Plan ",
+    "data": [
+      {
+        "name": "Sail Main",
+        "detail": "108 m² / 1162.50 ft²"
+      },
+      {
+        "name": "Jib",
+        "detail": "42 m² / 452 ft²"
+      },
+      {
+        "name": "Upwind Sail Area ",
+        "detail": "150 m² / 1614.58 ft²"
+      }
+    ]
+  }
+]
