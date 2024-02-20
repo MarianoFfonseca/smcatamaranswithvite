@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Specifications",
+    "data": [
+      {
+        "name": "Hull Length",
+        "detail": "14,2m"
+      },
+      {
+        "name": "Overal Length",
+        "detail": "15,1m"
+      },
+      {
+        "name": "Width",
+        "detail": "8,2m"
+      },
+      {
+        "name": "Width between axis",
+        "detail": "5,56m"
+      },
+      {
+        "name": "Bridgedeck clearance",
+        "detail": "1m"
+      },
+      {
+        "name": "Draught (min.)",
+        "detail": "0,86m"
+      },
+      {
+        "name": "Draught (max.)",
+        "detail": "2,70m"
+      }
+    ]
+  },
+  {
+    "data": [
+      {
+        "name": "Lightship displacement",
+        "detail": "11 Tn"
+      },
+      {
+        "name": "Full displacement",
+        "detail": "14 Tn"
+      },
+      {
+        "name": "Diesel tanks",
+        "detail": "800L"
+      },
+      {
+        "name": "Water tanks",
+        "detail": "600L"
+      },
+      {
+        "name": "Engine",
+        "detail": "2 x 40 HP / Yanmar - saildrive"
+      }
+    ]
+  }
+]

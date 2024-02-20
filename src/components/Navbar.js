@@ -8,10 +8,16 @@ import { BiShareAlt } from "react-icons/bi";
 import { MdEmail } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+// import { useStore } from "../store/popupstore";
 function Navbar() {
   const [MenuOpen, setMenuOpen] = useState(false);
   const [showShare, setShowShare] = useState(false);
   const navigate = useNavigate();
+  // const setIsShown = useStore((state) => state.setIsShown);
+  // function setShow() {
+  //   console.log("clicking");
+  //   setIsShown(true);
+  // }
   const FullMenu = (
     <motion.div
       initial={{ opacity: 0 }}
@@ -22,21 +28,21 @@ function Navbar() {
       className="z-40 fixed text-white top-6 left-20 md:left-28 space-x-5 md:space-x-10 md:w-auto h-auto  flex justify-start content-center items-start pl-10 md:text-xl "
     >
       <HashLink
-        to={"/"}
+        to={"/#SecondPage"}
         id="hover-underline-animation"
         className="opacity-60 hover:opacity-100 transition-all duration-200 cursor-pointer "
       >
-        Home
+        About Us
       </HashLink>
       <HashLink
-        to={"/#about"}
+        to={"/42f"}
         id="hover-underline-animation"
         className="opacity-60 hover:opacity-100 transition-all duration-200 cursor-pointer "
       >
-        About us
+        42F
       </HashLink>
       <HashLink
-        to={"/yachts"}
+        to={"/54s"}
         id="hover-underline-animation"
         className="opacity-60 hover:opacity-100 transition-all duration-200 cursor-pointer "
       >
@@ -82,7 +88,7 @@ function Navbar() {
             className="z-40 fixed text-white md:bottom-7 bottom-6 right-20 md:right-32 space-x-10 md:w-auto h-auto  flex justify-start content-center items-start pl-10 text-2xl "
           >
             <a
-              href="https://wa.me/543513810067"
+              href="https://wa.me/5493424738694"
               rel="noreferrer"
               target="_blank"
             >
@@ -94,7 +100,7 @@ function Navbar() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="mailto:valentingabrielvalli@gmail.com"
+              href="mailto:info@smcatamarans.com"
             >
               <button
                 onClick={() => navigate("")}
@@ -107,6 +113,15 @@ function Navbar() {
           </motion.div>
         )}
       </AnimatePresence>
+      {/* <button
+        onClick={reloadPage}
+        className="z-50 flex items-center gap-x-3 fixed md:top-3 top-14 left-5 md:left-auto md:right-10  text-white bg-red-900 rounded-full px-5 py-1 text-sm "
+      >
+        <div className="relative">
+          <div class="circle"></div>
+        </div>
+        Live
+      </button> */}
     </div>
   );
 }

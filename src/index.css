@@ -32,3 +32,12 @@ video::-webkit-media-controls {
 video {
   pointer-events: none;
 }
+
+#animationFadeIn {
+  opacity: 0;
+}
+
+#animationFadeIn.fade-in {
+  opacity: 1;
+  transition: opacity 300ms ease-in-out; /* Adjust the duration and easing as needed */
+}

@@ -1,22 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
-import Blog from "./components/Blog";
-import Yachts from "./components/Yachts";
-import Sailing from "./components/Catamarans/Sailing";
-import Power from "./components/Catamarans/Power";
-
+import Yachts from "./pages/Yachts";
+import FortyTwoF from "./pages/forty-two-f";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/yachts" element={<Yachts />} />
-      <Route path="/yachts/sailing" element={<Sailing />} />
-      <Route path="/yachts/power" element={<Power />} />
-      <Route path="/blog" element={<Blog />} />
+      <Route path="/54s" element={<Yachts />} />
+      <Route path="/42f" element={<FortyTwoF />} />
     </Routes>
   </BrowserRouter>
 );
