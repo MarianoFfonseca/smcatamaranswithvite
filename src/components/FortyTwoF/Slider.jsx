@@ -15,6 +15,14 @@ function Slider() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [lastSlide, setLastSlide] = useState(0);
 
+    // Preload all images on component mount
+    useEffect(() => {
+      images.forEach((src) => {
+        const img = new Image();
+        img.src = src;
+      });
+    }, [images]);
+
   const nextSlide = () => {
     setLastSlide(currentSlide);
     setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
@@ -57,14 +65,6 @@ function Slider() {
             src={images[currentSlide]}
             alt={`Slide ${currentSlide + 1}`}
           />
-
-          {/* <div className="absolute -left-32 top-0 bottom-0 h-full opacity-60 -z-10 grid items-center ">
-            <img
-              src={images[imageShowBefore]}
-              className="h-[400px] rounded-lg"
-              alt=""
-            />
-          </div> */}
         </div>
         <div className="absolute right-0 left-0 bottom-6  z-20 flex items-center justify-center">
           <div className="p-2 bg-black flex text-white items-center shadow-2xl shadow-black content-center rounded-full gap-x-6">

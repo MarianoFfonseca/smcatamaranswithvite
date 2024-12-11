@@ -48,6 +48,13 @@ function Navbar() {
       >
         54s
       </HashLink>
+      <HashLink
+        to={"/54m"}
+        id="hover-underline-animation"
+        className="opacity-60 hover:opacity-100 transition-all duration-200 cursor-pointer "
+      >
+        54m
+      </HashLink>
     </motion.div>
   );
   return (

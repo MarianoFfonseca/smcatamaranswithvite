@@ -1,0 +1,43 @@
+[
+  {
+    "borderRigth": true,
+    "Data": [
+      {
+        "borderTop": false,
+        "title": "Length on waterline (LOA)",
+        "description": "16.5 m"
+      },
+      {
+        "borderTop": true,
+        "title": "Length overall with bowsprit",
+        "description": "18 m"
+      }
+    ]
+  },
+  {
+    "borderRigth": true,
+    "Data": [
+      { "borderTop": false, "title": "Maximum beam", "description": "9 m" },
+      {
+        "borderTop": true,
+        "title": "Maximum beam of each hull",
+        "description": "2 m"
+      }
+    ]
+  },
+  {
+    "borderRigth": false,
+    "Data": [
+      {
+        "borderTop": false,
+        "title": "Fuel tank capacity",
+        "description": "520 L"
+      },
+      {
+        "borderTop": true,
+        "title": "Water tank capacity",
+        "description": "550 L"
+      }
+    ]
+  }
+]

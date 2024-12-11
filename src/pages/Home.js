@@ -150,7 +150,7 @@ function Home() {
       <div className="Home" id="hiddeScroll">
         {/* <PopUp /> */}
         <Section inView={inView} inView2={inView2} />
-        {isShown && <PopUp></PopUp>}
+        {/* {isShown && <PopUp></PopUp>} */}
         <HomePage theRef={ref}></HomePage>
         <AboutUsPage theRef={ref2}></AboutUsPage>
       </div>
